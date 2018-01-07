@@ -1,0 +1,23 @@
+.lightbox{
+    width: 600px;
+    height: 400px;
+    background-color: azure;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: fixed;
+    display: none;
+    text-align: center;
+}
+.mygallery ul li{
+    list-style: none;
+}
+.lightbox img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    cursor: pointer;
+}
